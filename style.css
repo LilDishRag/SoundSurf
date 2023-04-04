@@ -1,0 +1,65 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Caveat',cursive;
+    background: url(SS_imgs/ztm_sslanding.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gray-bg {
+    background: linear-gradient(to bottom, rgba(139, 178, 184, 0.329), rgb(20, 27, 26));
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    color: #f1e1b2;
+    padding-top: 1em;
+    
+}
+
+.btn{
+    font-weight: 700;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+
+
+
+.btn-secondary{
+    padding: 1rem 2rem;
+    background-color: #f1e1b2;
+    color:#212529;
+    border-color: #f1e1b2 ;
+     
+}
+
+
+.btn-secondary:hover{
+    background-color: #d1b972;
+    color: #212529;
+    border-color: #d1b972 ;
+    border-width: 2px;
+    
+
+}
+
+
+.buffer{
+    height: 220px;
+   
+}
+
+
+
+hr {
+    margin: 20px auto;
+    color: #f1e1b2;
+    border: 3px solid #f1e1b2;
+    max-width: 120px;
+    opacity: 1;
+}
